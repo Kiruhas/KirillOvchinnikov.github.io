@@ -14,7 +14,7 @@ actor P0 as "Человек"
 actor S0 as "Инструмент"
 actor P as "Сборщик"
 actor S as "Шуруповерт, молоток, шестигранник"
-usecase A as "Сборка"
+usecase A as "Сборка Шкафа"
 P -- (A)
 (A) -- S
 P0 <|-- P
