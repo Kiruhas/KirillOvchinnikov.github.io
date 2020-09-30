@@ -1,0 +1,11 @@
+@startuml
+skinparam class {
+  BackgroundColor White
+  BorderColor Black
+}
+class Сборщик {
+  {field} Шуруповерт, молоток, шестигранник
+  {method} Собрать(части шкафа):шкаф
+}
+hide circle
+@enduml
