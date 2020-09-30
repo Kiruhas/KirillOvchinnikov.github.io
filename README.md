@@ -15,4 +15,4 @@
 
 Диаграмма прецедентов : 
 
-![None](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/lab1/use_case_diagram.png)
+![None](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/lab1/use_case_diagram_1.png)
