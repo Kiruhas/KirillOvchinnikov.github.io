@@ -5,7 +5,7 @@
 
 Предложение: собрать шкаф
 
-![None](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/lab1/model.png)
+![None](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/lab1/model_1.png)
 
 Предложение после: сборщик собирает шкаф из частей шкафа при помощи шуруповерта, молотка и шестигранника 
 
