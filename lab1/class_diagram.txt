@@ -5,7 +5,7 @@ skinparam class {
 }
 class Сборщик {
   {field} Шуруповерт, молоток, шестигранник
-  {method} Собрать(части шкафа):шкаф
+  {method} Собрать(части шкафа, заказ):шкаф
 }
 hide circle
 @enduml
