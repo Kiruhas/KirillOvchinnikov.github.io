@@ -11,7 +11,7 @@
 
 Диаграмма классов: 
 
-![A](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/lab1/classDiagram_new.png?raw=true)
+![A](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/lab1/ClassDiagram_new.png?raw=true)
 
 Диаграмма прецедентов : 
 
