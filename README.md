@@ -1,53 +1,11 @@
-# Отчет о лабораторных работах
 # [ИДБ-17-06](https://github.com/stankin/design-part-1/wiki/list-idb-17-06) Овчинников Кирилл
 
-# Лабораторная работа №1
+## Домашнее задание по [семинару 1](), [семинару 2]()
 
-Предложение: собрать шкаф
+## [Отчет](https://github.com/Kiruhas/KirillOvchinnikov.github.io/wiki/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D1%8B%D0%B5-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-1,-2,-3) по лабораторным работам 1-3
 
-![A](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/lab1/model_new.png?raw=true)
+## Домашние задания по семинарам 3-4
 
-Предложение после: Сборщик Собирает Шкаф по Заказу из Частей Шкафа при помощи Шуруповерта, Молотка и Шестигранника 
+## Отчет по лабораторным работам 4-6
 
-Диаграмма классов: 
-
-![A](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/lab1/ClassDiagram_new.png?raw=true)
-
-Диаграмма прецедентов : 
-
-![A](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/lab1/use_case_diagram_1.png?raw=true)
-
-# Лабораторная работа №2
-
-## IDEF0 diagram
-
-Контексная:
-
-![A](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/lab2/model_1.png?raw=true)
-
-На диаграмме изображен процесс работы компании по сборке мебели
-
-Средний уровень:
-
-![A](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/lab2/model_2.png?raw=true)
-
-### А1 
-Менеджер получает на вход требования клиента и заказ. На выходе получается записанный в базу клиент.
-
-### А2
-Менеджер получает на вход согласованный заказ и требования заказчика. А на выходе получается согласованные дата, время и место сборки.
-
-### А3
-Сборщик получает на вход заказ и инструменты. А на выходе получается собранный шкаф.
-
-## DFD-диаграмма (блок:Обработка заказа):
-
-![A](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/lab2/model_3.png?raw=true)
-
-Менеджер получает обращение клиента, предоставляет ему список услуг, и, при положительном решении клиента, записывает его в базу данных.
-
-## Диаграмма прецендентов:
-[Текст](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/lab2/classDiagram.png) и [рисунок](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/lab2/classDiagram.txt) диаграммы прецендентов
-
-![A](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/lab2/classDiagram.png?raw=true)
-
+## Рефераты: [разработанный](https://github.com/stankin/design-part-1/wiki/exam05-4) и проверенный
