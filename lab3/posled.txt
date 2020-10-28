@@ -1,0 +1,15 @@
+@startuml
+actor "Менеджер" as owner
+boundary "Веб-приложение" as app
+entity "Данные" as data
+boundary "Мобильное приложение" as appmob
+actor "Сборщик" as trainee
+owner -> app : Запрос
+app -> data : Обработка
+data -> appmob : Заказ
+appmob -> trainee : Данные заказа
+trainee -> appmob : Подтверждение
+appmob -> data : Обработка
+data -> app : Ответ
+app -> owner : Заказ принят
+@enduml
