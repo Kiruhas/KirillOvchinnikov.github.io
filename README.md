@@ -1,4 +1,4 @@
-# [ИДБ-17-06](https://github.com/stankin/design-part-1/wiki/list-idb-17-06) Овчинников Кирилл
+# [ИДБ-17-06](https://github.com/stankin/design-part-2/wiki/list-idb-17-06) Овчинников Кирилл
 
 # Отчет по лабораторным работам
 
