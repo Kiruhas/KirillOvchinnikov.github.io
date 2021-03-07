@@ -24,19 +24,34 @@
 
 ### 2. Функциональное моделирование процессов (IDEF0) [✋](https://github.com/stankin/design-part-2/wiki/LR-1)
 
-* A-0 (контекстная диаграмма)
+#### A-0
 
-![A-0](myrep\a-0.jpg)
+![A-0](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/ramus/A0.png)
 
-* A0 (диаграмма верхнего уровня)
+#### A0
 
-![A0](myrep\a0.jpg)
+![A0](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/ramus/A1-A5.png)
 
-* A3 (декомпозиция процесса/процессов внутренней среды)
+#### Декомпозиция A1
 
-![A3](myrep\a3.jpg)
+![A1](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/ramus/A1-Dec.png)
 
-...
+#### Декомпозиция A2
+
+![A2](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/ramus/A2-Dec.png)
+
+#### Декомпозиция A3
+
+![A3](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/ramus/A3-Dec.png)
+
+#### Декомпозиция A4
+
+![A4](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/ramus/A4-Dec.png)
+
+#### Декомпозиция A5
+
+![A5](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/ramus/A5-Dec.png)
+
 
 ### 3. Функциональное моделирование программных и информационных средств (DFD) [✋](https://github.com/stankin/design-part-2/wiki/LR-2)
 
