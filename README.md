@@ -46,7 +46,7 @@
 
 #### Декомпозиция A4:
 
-![A4](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/ramus/A4-Dec.png)
+![A4](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/ramus/A4-Dec1.png)
 
 #### Декомпозиция A5:
 
