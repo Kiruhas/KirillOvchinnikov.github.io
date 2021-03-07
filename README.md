@@ -28,27 +28,27 @@
 
 ![A-0](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/ramus/A0.png)
 
-#### A0
+#### A0:
 
 ![A0](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/ramus/A1-A5.png)
 
-#### Декомпозиция A1
+#### Декомпозиция A1:
 
 ![A1](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/ramus/A1-Dec.png)
 
-#### Декомпозиция A2
+#### Декомпозиция A2:
 
 ![A2](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/ramus/A2-Dec.png)
 
-#### Декомпозиция A3
+#### Декомпозиция A3:
 
 ![A3](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/ramus/A3-Dec.png)
 
-#### Декомпозиция A4
+#### Декомпозиция A4:
 
 ![A4](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/ramus/A4-Dec.png)
 
-#### Декомпозиция A5
+#### Декомпозиция A5:
 
 ![A5](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/ramus/A5-Dec.png)
 
