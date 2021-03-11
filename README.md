@@ -61,13 +61,30 @@
 
 **Допустимые виды хранилищ и их размещение:** <файлы, директории, репозитории, базы данных>
 
-* A31 Автоматизация процесса А31
+#### Автоматизация процесса A13:
 
-![A31](myrep\a31.jpg)
+![A13](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/ramus/A13.png)
 
-* A32 Автоматизация процесса А32
+#### Автоматизация процесса A21:
 
-![A32](myrep\a32.jpg)
+![A21](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/ramus/A21.png)
+
+#### Автоматизация процесса A:
+
+![A23](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/ramus/A23.png)
+
+#### Автоматизация процесса A:
+
+![A33](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/ramus/A33.png)
+
+#### Автоматизация процесса A:
+
+![A43](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/ramus/A43.png)
+
+#### Автоматизация процесса A:
+
+![A51](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/ramus/A51.png)
+
 
 ### 4. Описание выбранного процесса [✋](https://github.com/stankin/design-part-2/wiki/LR-3) в формате прецедента (Use Case) [✋](https://github.com/stankin/design-part-2/wiki/LR-4)
 
