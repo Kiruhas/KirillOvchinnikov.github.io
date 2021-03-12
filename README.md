@@ -69,19 +69,19 @@
 
 ![A21](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/ramus/A21.png)
 
-#### Автоматизация процесса A:
+#### Автоматизация процесса A23:
 
 ![A23](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/ramus/A23.png)
 
-#### Автоматизация процесса A:
+#### Автоматизация процесса A33:
 
 ![A33](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/ramus/A33.png)
 
-#### Автоматизация процесса A:
+#### Автоматизация процесса A43:
 
 ![A43](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/ramus/A43.png)
 
-#### Автоматизация процесса A:
+#### Автоматизация процесса A51:
 
 ![A51](https://github.com/Kiruhas/KirillOvchinnikov.github.io/blob/master/ramus/A51.png)
 
