@@ -4,31 +4,38 @@ skinparam class {
 	ArrowColor Black
 	BorderColor Black
 }
-class Entity
-class Person
-class Organization
-class Property
-class Activity
-class Document
-class Student
-class Teacher
-class Assign
-class Perform
-class Check
-class Computer
-class Pencil
-Entity <|-- Person
-Entity <|-- Organization
-Entity <|-- Property
-Entity <|-- Activity
-Entity <|-- Document
-Person <|-- Student
-Person <|-- Teacher
-Activity <|-- Assign
-Activity <|-- Perform
-Activity <|-- Check
-Property <|-- Computer
-Property <|-- Pencil
+class Entity as "Поток"
+
+class Input as "Входной поток"
+class Output as "Выходной поток"
+class Control as "Поток управления"
+
+class InfIn as "Информационный"
+class InfOut as "Информационный"
+class Material as "Материальный"
+class InfControl as "Информационный"
+
+class transactionsCMS as "Транзакции CMS"
+class CMS as "CMS"
+class WMS as "WMS"
+class Member as "Сотрудник"
+class Standarts as "Нормы и стандарты"
+class CompleteJob as "Работа выполнена"
+
+Entity <|-- Input 
+Entity <|-- Output 
+Entity <|-- Control
+Input <|-- InfIn
+InfIn <|-- transactionsCMS
+Output <|-- InfOut
+InfOut <|-- CompleteJob
+Control <|-- Material
+Control <|-- InfControl
+Material <|-- Member
+InfControl <|-- CMS
+InfControl <|-- WMS
+InfControl <|-- Standarts
+
 hide members
 hide circle
 hide methods
