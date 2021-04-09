@@ -1,0 +1,32 @@
+@startuml
+left to right direction
+
+actor "Пользователь"
+actor "Сотрудник"
+
+usecase case1 as "Совершение заказов"
+
+usecase case2 as "Контроль за системой"
+
+usecase case3 as "Просмотр активных/неактивных заказов"
+
+usecase case4 as "Просмотр использования складского пространства"
+
+usecase case5 as "Контроль за выполнением заказов"
+
+usecase case6 as "Просмотр каталога"
+
+usecase case7 as "Формирование корзины"
+
+usecase case8 as "Оформление заказа"
+
+Пользователь --> case1
+case1 ..> case6
+case1 ..> case7
+case1 ..> case8
+
+Сотрудник --> case2
+case2 ..> case3
+case2 ..> case4
+case2 ..> case5
+@enduml
