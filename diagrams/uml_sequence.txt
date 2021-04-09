@@ -1,0 +1,47 @@
+@startuml
+skinparam monochrome true
+
+actor Пользователь as user
+participant "Веб-сайт" as web
+participant "Сервер" as serv
+database "База данных" as base
+
+user -> web : Запрос на просмотр каталога
+activate web
+web -> serv : Запрос списка каталога
+activate serv
+serv -> base : Запрос выборки с товарами
+activate base
+base -> serv : Список доступных товаров
+deactivate base
+serv -> web : Список товаров 
+deactivate serv
+web -> user : Отображение информации 
+deactivate web
+
+user -> web : Добавление товаров в корзину
+activate web
+web -> serv : Формирование корзины во временном хранилище
+activate serv
+serv -> web : Товары добавлены в корзину
+deactivate serv
+web -> user : Отображение информации по корзине 
+deactivate web
+
+user -> web : Оформление заказа
+activate web
+web -> serv : Данные по заказу
+activate serv
+serv -> base : Запрос информации по товарам
+activate base
+base -> serv : Данные по запрошенным товарам
+serv -> serv : Обработка данных по товарам
+serv -> serv : Расчет погрузочных мест для заказа
+serv -> base : Добавление нового заказа
+base -> serv : Успешное добавление
+deactivate base
+serv -> web : Передача результата
+deactivate serv
+web -> user : Отображение результата оформления заказа
+deactivate web
+@enduml
