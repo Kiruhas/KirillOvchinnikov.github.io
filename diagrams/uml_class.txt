@@ -1,0 +1,46 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+hide circle
+hide methods
+
+class Orders {
+   id : number
+   contain : array
+   active : boolean
+   ready : boolean
+   id_user : number
+}
+class Palets {
+   id : number
+   free : boolean
+   order_id : number
+}
+class Products {
+   id : number
+   name : text
+   amount : number
+   image : text
+   size : number
+   color : text
+}
+class Sizes {
+   id : number
+   product_id : number
+   size : text
+}
+class Users {
+   id : number
+   username : text
+   password : text
+   isAdmin : boolean
+}
+
+Orders --* Products
+Orders *-- Palets  
+Orders --* Users
+Products *-- Sizes
+@enduml
