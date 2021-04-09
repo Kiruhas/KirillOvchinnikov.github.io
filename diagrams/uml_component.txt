@@ -1,0 +1,103 @@
+@startuml
+skinparam monochrome true
+hide circle
+hide methods
+
+() HTTP
+() TCP_IP
+
+node "Web Client" {
+
+component browser [
+"executable"
+
+Web Browser
+]
+
+browser - HTTP
+
+}
+
+node "Web Server" {
+
+package "Design" {
+
+component style [
+"file"
+
+style.css
+]
+
+}
+
+
+package "Scripts" {
+
+component main [
+"file"
+
+javascript.js
+]
+
+}
+
+package "Pages" {
+
+component catalog [
+"document"
+
+catalog.php
+]
+
+component basket [
+"document"
+
+basket.php
+]
+
+component order [
+"document"
+
+confirm_order.php
+]
+
+component stats [
+"document"
+
+lk.php
+]
+
+}
+
+component index [
+"document"
+
+index.php
+]
+
+index ..> "Scripts"
+index ..> "Design"
+index ..> "Pages"
+}
+
+HTTP - "Web Server"
+
+node "PostgreSQL Database" {
+component base [
+"database"
+
+wms-db
+]
+
+component tables [
+"data tables"
+
+          ...
+]
+
+base ..> tables
+}
+
+"Web Server" - TCP_IP
+TCP_IP - "PostgreSQL Database"
+@enduml
