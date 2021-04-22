@@ -1,32 +1,19 @@
 @startuml
 left to right direction
 
-actor "Пользователь"
-actor "Сотрудник"
+actor "WMS-система"
 
-usecase case1 as "Совершение заказов"
+usecase case1 as "Выполнение функций"
 
-usecase case2 as "Контроль за системой"
+usecase case2 as "Получение данных о заказе"
 
-usecase case3 as "Просмотр активных/неактивных заказов"
+usecase case3 as "Расчет погрузочных мест для заказа"
 
-usecase case4 as "Просмотр использования складского пространства"
+usecase case4 as "Занесение номеров поддонов в базу данных"
 
-usecase case5 as "Контроль за выполнением заказов"
+WMS-система --> case1
+case1 ..> case2
+case1 ..> case3
+case1 ..> case4
 
-usecase case6 as "Просмотр каталога"
-
-usecase case7 as "Формирование корзины"
-
-usecase case8 as "Оформление заказа"
-
-Пользователь --> case1
-case1 ..> case6
-case1 ..> case7
-case1 ..> case8
-
-Сотрудник --> case2
-case2 ..> case3
-case2 ..> case4
-case2 ..> case5
 @enduml
