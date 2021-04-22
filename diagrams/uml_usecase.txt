@@ -1,7 +1,7 @@
 @startuml
 left to right direction
 
-actor "WMS-система"
+actor "WMS_система"
 
 usecase case1 as "Выполнение функций"
 
@@ -11,7 +11,7 @@ usecase case3 as "Расчет погрузочных мест для заказ
 
 usecase case4 as "Занесение номеров поддонов в базу данных"
 
-WMS-система --> case1
+WMS_система --> case1
 case1 ..> case2
 case1 ..> case3
 case1 ..> case4
